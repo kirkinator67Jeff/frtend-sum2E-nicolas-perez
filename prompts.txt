@@ -1,0 +1,30 @@
+Etapa 1: Creacion de la Pagina
+
+Propmt: Crea una pagina de una clinica llamada SaludPlus con su propio logo y con su header, secciones de servicios, especialidades y medicos
+Commit 1: Estructura inicial  
+Se creó el index.html con la estructura base: header fijo, hero, secciones de servicios, especialidades, médicos, contacto y footer. Esto dio el esqueleto de la página.
+
+Prompt: Añadele un estilo clasico con grids y tarjetas con sombras
+Commit 2: Estilos básicos  
+Se añadió el styles.css inicial con tipografía, colores, hero con fondo, grids para servicios y especialidades, y tarjetas con sombras. La página empezó a tener estética moderna.
+
+Etapa 2: Retocando
+
+Prompt: Añadele un formulario llamado turnos.html con nombre, email, telefono , fecha y mensaje y su especialidad
+Commit 3: Formulario de turnos  
+Se creó turnos.html con un formulario completo (nombre, email, teléfono, especialidad, fecha y mensaje). Esto permitió la interacción directa con pacientes.
+
+Prompt: Rediseña la pagina con un color parecido a las clinicas, algo mas moderno y robusto
+Commit 4: Rediseño clínico  
+Se rehizo el diseño con paleta clínica (azul, blanco, verde salud), hero con degradado, botones llamativos y tarjetas más limpias. La página ganó profesionalismo y coherencia visual.
+
+Etapa 3: Orden y JS
+
+Prompt: Ordena las secciones de especialidades, servicios y contactos para que se vea mas limpia la pagina y tener mas accesibilidad y visibilidad
+Commit 5: Orden y mejoras  
+Se reorganizaron las secciones: especialidades con 5 bloques , servicios en lista ordenada sin imágenes, y contacto con íconos médicos. Esto mejoró la claridad y navegación.
+
+Prompt: creame un js con nombre validaciones.js para validar el formulario y que sea funcional (con mensajes de error y confirmacion)
+Commit 6: Validaciones JS  
+Se creó validaciones.js para validar el formulario de turnos: nombre, email, teléfono, especialidad y fecha. Incluye mensajes de error y confirmación de envío. Se añadió funcionalidad real.
+
