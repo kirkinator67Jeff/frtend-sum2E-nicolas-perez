@@ -1,35 +1,126 @@
-/* Estilos para el formulario de turnos */
-form {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 1rem;
-    background: #f9f9f9;
-    border-radius: 5px;
+/* Estilos generales */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+h1, h2 {
+    font-weight: 700;
+    color: #007BFF;
+}
+
+p {
+    color: #555;
+}
+
+/* Encabezado fijo */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #007BFF;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.fixed-header .logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.fixed-header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.fixed-header nav ul li {
+    margin: 0 15px;
+}
+
+.fixed-header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.fixed-header nav ul li a:hover {
+    color: #ffdd57;
+}
+
+/* Sección principal */
+main {
+    padding: 6rem 1rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Sección de formulario */
+#solicitar-turno {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#solicitar-turno h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#solicitar-turno p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #666;
+}
+
+/* Estilos del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 form label {
-    display: block;
-    margin-bottom: 0.5rem;
     font-weight: bold;
+    text-align: left;
 }
 
 form input, form select, form textarea {
     width: 100%;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
+    padding: 0.75rem;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+    border-color: #007BFF;
+    outline: none;
 }
 
 form button {
-    display: inline-block;
     background: #007BFF;
     color: #fff;
     padding: 0.75rem 1.5rem;
-    text-decoration: none;
     border: none;
     border-radius: 5px;
+    font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
     transition: background 0.3s;
@@ -37,4 +128,14 @@ form button {
 
 form button:hover {
     background: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    margin-top: 2rem;
+    font-size: 0.9rem;
 }
