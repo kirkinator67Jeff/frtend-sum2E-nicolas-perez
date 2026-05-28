@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitar Turno - SaludPlus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="fixed-header">
+        <div class="logo">
+            <h1>SaludPlus</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="index.html#servicios">Servicios</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="solicitar-turno">
+            <h2>Solicitar Turno</h2>
+            <p>Por favor, completa el siguiente formulario para solicitar un turno en nuestra clínica.</p>
+            <form action="#" method="POST">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+                
+                <label for="especialidad">Especialidad:</label>
+                <select id="especialidad" name="especialidad" required>
+                    <option value="medicina-general">Medicina General</option>
+                    <option value="cardiologia">Cardiología</option>
+                    <option value="dermatologia">Dermatología</option>
+                    <option value="pediatria">Pediatría</option>
+                    <option value="telemedicina">Telemedicina</option>
+                </select>
+                
+                <label for="fecha">Fecha del Turno:</label>
+                <input type="date" id="fecha" name="fecha" required>
+                
+                <label for="mensaje">Mensaje Adicional:</label>
+                <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                
+                <button type="submit" class="btn">Enviar Solicitud</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 SaludPlus. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
