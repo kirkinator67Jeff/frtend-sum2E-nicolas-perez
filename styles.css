@@ -126,3 +126,45 @@ form .btn {
 form .btn:hover {
   background: #218838;
 }
+
+.contact-section {
+  background: linear-gradient(to right, #e3f2fd, #bbdefb);
+  padding: 6rem 2rem;
+  text-align: center;
+  border-radius: 12px;
+  margin: 6rem auto;
+  max-width: 900px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.contact-section h2 {
+  color: var(--azul-clinico);
+  margin-bottom: 1rem;
+}
+
+.contact-section p {
+  margin-bottom: 2rem;
+  color: var(--gris-texto);
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-info div {
+  background: #fff;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.contact-info .icon {
+  font-size: 1.5rem;
+  color: var(--azul-clinico);
+  display: block;
+  margin-bottom: 0.5rem;
+}
