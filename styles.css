@@ -248,3 +248,61 @@ footer {
     color: #555;
     margin: 0.5rem 0;
 }
+
+/* Obras Sociales */
+#obras-sociales {
+    padding: 2rem 1rem;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+#obras-sociales h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #007BFF;
+}
+
+#obras-sociales p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.obras-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+}
+
+.obras-list li {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.obras-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.obras-list img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.obras-list span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
